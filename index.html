@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Larissa Kalender</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1 style="color: white">Kies week maand en jaar</h1>
+      <!-- <table>
+                <tr class='tableRow'>
+                    <td>
+                        <select id='week'>
+                          <option disabled selected value> --kies een week-- </option>
+                          <option value='2'>week 1</option>
+                          <option value='3'>week 2</option>
+                          <option value='4'>week 3</option>
+                          <option value='5'>week 4</option>   
+                        </select>
+                    </td>  
+                    <td>
+                        <select id='maand'>
+                            <option disabled selected value>--kies een maand--</option>                           
+                            <option value='1'>April</option>
+                            <option value='2'>Mei</option>
+                            <option value='3'>Juni</option>
+                            <option value='4'>Juli</option>
+                            <option value='5'>Augustus</option>
+                            <option value='6'>September</option>
+                            <option value='7'>Oktober</option>
+                            <option value='8'>November</option>
+                            <option value='9'>December</option>
+                            <option value='10'>Januari</option>
+                            <option value='11'>Februari</option>
+                            <option value='12'>Maart</option>      
+                        </select>
+                    </td>     
+                    <td>
+                        <select id='jaar'>
+                            <option disabled selected value>--kies een jaar--</option> 
+                            <option value='1'>2022</option>
+                            <option value='2'>2021</option>
+                            <option value='3'>2020</option>
+                            <option value='4'>2019</option>
+                            <option value='5'>2018</option>   
+                        </select>
+                    </td>                                  
+                    <td>
+                        <button id='apply'>Apply</button>
+                    </td>
+                    <td>
+                        <button id='clear'>Clear</button>
+                    </td>                          
+                </tr>
+                <tr style="color: white;"class ='labelRow'>
+                    <th>            
+                        <label for='week'>Week</label>
+                    </th>
+                    <th>            
+                    <label for='maand'>Maand</label>
+                    </th>
+                    <th>
+                        <label for='jaar'>jaar</label>
+                    </th>               
+                </tr>
+            </table> -->
+      <form action="">
+        <select id="week">
+          <option disabled selected value>--kies een week--</option>
+          <option value="2">week 1</option>
+          <option value="3">week 2</option>
+          <option value="4">week 3</option>
+          <option value="5">week 4</option>
+        </select>
+
+        <select id="maand">
+          <option disabled selected value>--kies een maand--</option>
+          <option value="1">April</option>
+          <option value="2">Mei</option>
+          <option value="3">Juni</option>
+          <option value="4">Juli</option>
+          <option value="5">Augustus</option>
+          <option value="6">September</option>
+          <option value="7">Oktober</option>
+          <option value="8">November</option>
+          <option value="9">December</option>
+          <option value="10">Januari</option>
+          <option value="11">Februari</option>
+          <option value="12">Maart</option>
+        </select>
+
+        <select id="jaar">
+          <option disabled selected value>--kies een jaar--</option>
+          <option value="1">2022</option>
+          <option value="2">2021</option>
+          <option value="3">2020</option>
+          <option value="4">2019</option>
+          <option value="5">2018</option>
+        </select>
+
+        <input id="apply" type="button" value="apply" />
+
+        <input type="reset" />
+
+        <label for="week">Week</label>
+        <
+        <label for="maand">Maand</label>
+
+        <label for="jaar">jaar</label>
+      </form>
+
+      <table>
+        <tr class="de-week">
+          <ul class="weekdays">
+            <li>Ma</li>
+            <li>Di</li>
+            <li>Wo</li>
+            <li>Do</li>
+            <li>Vr</li>
+            <li>Za</li>
+            <li>Zo</li>
+          </ul>
+          <div id="weekKalender"></div>
+        </tr>
+      </table>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
