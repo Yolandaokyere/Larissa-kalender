@@ -2,13 +2,13 @@
 
 
 ##### Table of Contents
-* [Assesment]
-* [Activity diagram]
-* [Process]
-* [Wishlist]
-* [Installation]
-* [Recources]
-* [License]
+* [User Scenario](https://github.com/Yolandaokyere/Larissa-kalender/tree/main#user-scenario)
+* [Test 1](https://github.com/Yolandaokyere/Larissa-kalender/tree/main#test-1--getting-to-know-larissa)
+* [Test 2](https://github.com/Yolandaokyere/Larissa-kalender/tree/main#test-2--prototype-testen-met-larissa)
+* [Test 3](https://github.com/Yolandaokyere/Larissa-kalender/tree/main#test-3--eind-prototype)
+* [Design Principles](https://github.com/Yolandaokyere/Larissa-kalender/tree/main#design-principles)
+* [Reflectie](https://github.com/Yolandaokyere/Larissa-kalender/tree/main#reflectie)
+* [Leerdoelen](https://github.com/Yolandaokyere/Larissa-kalender/tree/main#leerdoelenrubric)
 ## User Scenario
 Larissa is een topsporter in de baalwielrenner. Als topsporter is zij natuurlijk druk en bijna elke dag aan het trainen. Het zou voor haar fijn zijn als haar diversiteit in trainingen en oefeningen in een agenda geplaats kan worden. In haar huidige trainingsschema staat de informatie omslachtig. Hierdoor gebruikt zij nauwelijks haar agenda. Ondanks dat Larissa nog voor 1% ziet, is ze erg verstandig en heeft zij ook een gouden medaille gewonnen bij de olympische Spelen. Voor deze opdracht wordt er een trainingsschema ontworpen die goed bruikbaar is voor de client waarbij zij gemakkelijk door de applicatie kan navigeren, en deze goed bruikbaar voor haar wordt.  
 ### Test 1 | Getting to know Larissa
